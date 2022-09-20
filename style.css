@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(imagenes/Backgrounds\ Fabric\ Background\ High\ Resolutions\ Room\ Black\ wallpapers.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(191, 196, 196);
+}
+
+.header{
+    padding: 3%;
+    color: rgb(165, 168, 168);
+    background-color: rgb(37, 37, 37, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo{
+    width: 40%;
+}
+
+.navHeader{
+    width: 40%;
+}
+
+.menu{
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*cuerpo*/
+
+section{
+    color: azure;
+    background-image: url(/Video/Videofondo.webm) ;
+    background-color: rgb(73, 73, 73. 0);
+}
+
+.divVideo{
+    position: fixed;
+    opacity: 0.7;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.sectionDiv{
+    padding-bottom: 20%;
+    padding-top: 10%;
+    margin-left: 7.5%;
+}
+
+.serviciosBanner{
+    text-align: center;
+}
+
+.serviciosTexto{
+text-align: center;
+padding-bottom: 3%;
+}
+
+.sectionServicios{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sectionNosotros{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.sectionContacto{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(209, 30, 90)
+}
+
+.sectionProyectos{
+    text-align: center;
+   margin-top: 3%;
+   margin-right: 10%;
+   margin-left: 10%;
+}
+
+.divProyectos{
+    margin-bottom: 4%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+/* Pie de pagina */
+
+.footer{
+    padding: 1%;
+    color: rgb(165, 168, 168);
+    background-color: rgb(37, 37, 37, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.divTexto{
+    width: 50%;
+    height: 50%;
+    margin-left: 6%;
+}
+
+.footerTexto{
+    list-style: none;
+    font-size: small;
+
+}
+
+.footerSeparador{
+   margin-right: 23%;
+    width: 5%;
+    height: 5%;
+}
+
+.puntosSeparador{
+    color: rgb(145, 24, 60);
+    list-style: none;
+}
+
+.divRedes{
+    width: 20%;
+    height: 20%;
+    margin-right: 4%;
+}
+
+.redes{
+    margin: 5px;
+    padding-top: 14px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
