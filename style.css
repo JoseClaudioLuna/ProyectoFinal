@@ -5,6 +5,9 @@
 
 body{
     background-image:url(imagenes/Backgrounds\ Fabric\ Background\ High\ Resolutions\ Room\ Black\ wallpapers.jpg);
+    position: relative;
+    padding-bottom: 8em;
+    min-height: 100vh;
 }
 
 a{
@@ -12,22 +15,23 @@ a{
     color: rgb(191, 196, 196);
 }
 
-.header{
-    padding: 3%;
-    color: rgb(165, 168, 168);
-    background-color: rgb(37, 37, 37, 0.5);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+h5{
+    color: rgb(172, 179, 179); 
 }
 
-.header-logo{
-    width: 40%;
+p{
+    color: rgb(172, 179, 179); 
 }
 
-.navHeader{
-    width: 40%;
+.navMargin{
+    margin-left: 9%;
+    margin-right: 7%;
 }
+
+.backgroundNav{
+  background-color: rgb(37, 37, 37, 0.5);  
+}
+
 
 .menu{
     font-size: 25px;
@@ -36,10 +40,34 @@ a{
     justify-content: space-around;
 }
 
+.enlace:hover{
+    transform: scale(1.06);
+    transition: all 0.2s ease-in-out;
+    animation: brilloTexto 0.9s ease-out;
+}
+
+@keyframes brilloTexto{
+    0%{
+        text-shadow: 0 0 0px rgb(255, 255, 255, 0.5);
+    }
+    25%{
+        text-shadow: 0 0 2px rgb(255, 255, 255, 0.5);
+    }
+    50%{
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+    }
+    75%{
+        text-shadow: 0 0 3px rgb(255, 255, 255, 0.4);
+    }
+    100%{
+        text-shadow: 0 0 0px rgb(255, 255, 255, 0.5);
+    }   
+}
+
 /*cuerpo*/
 
 section{
-    color: azure;
+    color: rgb(188, 190, 192);;
     background-image: url(/Video/Videofondo.webm) ;
     background-color: rgb(73, 73, 73. 0);
 }
@@ -59,6 +87,10 @@ section{
     margin-left: 7.5%;
 }
 
+.animate__animated.animate__fadeInUp{
+    --animate-duration: 4s;
+}
+
 .serviciosBanner{
     text-align: center;
 }
@@ -70,22 +102,24 @@ padding-bottom: 3%;
 
 .sectionServicios{
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-top: 0%;
     padding-bottom: 0%;
-    margin: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
     display: flex;
     align-items: center;
     
 }
 
+
 .sectionNosotros{
     text-align: center;
     padding-left: 5%;
     padding-right: 10%;
-    padding-top: 0%;
-    padding-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin: 5%;
     display: flex;
     align-items: center;
@@ -93,11 +127,6 @@ padding-bottom: 3%;
 
 .sectionContacto{
     text-align: center;
-}
-
-h1{
-    font-size: 40px;
-    color: rgb(209, 30, 90)
 }
 
 .sectionProyectos{
@@ -113,50 +142,70 @@ h1{
     justify-content:space-evenly;
 }
 
-/* Pie de pagina */
+.contactanos{
+    color: rgb(209, 30, 90)
+}
 
-.footer{
-    padding: 1%;
-    color: rgb(165, 168, 168);
-    background-color: rgb(37, 37, 37, 0.5);
-    display: flex;
-    justify-content: space-evenly;
+.previewVideo:hover{
+    transform: scale(1.04);
+    transition:all 0.3s ease-out;
+}
+
+.fila{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
+    align-items: center;
 }
 
 
-.divTexto{
-    width: 50%;
-    height: 50%;
-    margin-left: 6%;
+/* Pie de pagina */
+
+footer{
+    background-color: rgba(41, 39, 39, 0.5);
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.iconosFooter{
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.footerizquierdo{
+    align-items: center;
+    display: flex;
+    justify-content: center
 }
 
 .footerTexto{
+    margin-top: 6%;
+    margin-left: 0%;
+    margin-right: 10%;
+    align-items: center;
     list-style: none;
-    font-size: small;
-
+    font-size: 12px;
+    color: rgb(121, 123, 126);
 }
 
-.footerSeparador{
-   margin-right: 23%;
-    width: 5%;
-    height: 5%;
+.icono:hover{
+    transform:scale(108%);
+    transition: all 0.2s;
 }
 
-.puntosSeparador{
-    color: rgb(145, 24, 60);
-    list-style: none;
-}
+/* media querys*/
+@media only screen and (max-width:450px){
+  h4,p {
+    text-align: center;
+  }
+  } 
 
-.divRedes{
-    width: 20%;
-    height: 20%;
-    margin-right: 4%;
-}
-
-.redes{
-    margin: 5px;
-    padding-top: 14px;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
+    
