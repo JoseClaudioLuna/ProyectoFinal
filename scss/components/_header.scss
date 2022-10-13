@@ -1,0 +1,36 @@
+header{
+    .backgroundNav{
+        background-color: rgb(37, 37, 37, 0.5);
+        .navMargin{
+            margin-left: 9%;
+            margin-right: 7%;
+        }
+    }
+    div{
+        .navbar-nav{
+            .enlace:hover{
+                transform: scale(1.06);
+                transition: all 0.2s ease-in-out;
+                animation: brilloTexto 0.9s ease-out;
+
+                @keyframes brilloTexto{
+                    0%{
+                        text-shadow: 0 0 0px rgb(255, 255, 255, 0.5);
+                    }
+                    25%{
+                        text-shadow: 0 0 2px rgb(255, 255, 255, 0.5);
+                    }
+                    50%{
+                        text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+                    }
+                    75%{
+                        text-shadow: 0 0 3px rgb(255, 255, 255, 0.4);
+                    }
+                    100%{
+                        text-shadow: 0 0 0px rgb(255, 255, 255, 0.5);
+                    }   
+                }
+            }
+        }
+    }
+}

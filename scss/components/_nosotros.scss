@@ -1,0 +1,17 @@
+
+.sectionNosotros {
+            text-align: center;
+            padding-left: 5%;
+            padding-right: 10%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            margin: 5%;
+            display: flex;
+            align-items: center;
+    }
+    @media only screen and (max-width:768px){
+        .sectionNosotros {
+            display:inline ;
+            margin-top: 2%;
+     }
+ } 

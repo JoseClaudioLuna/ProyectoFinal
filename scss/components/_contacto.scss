@@ -1,0 +1,24 @@
+@import '../base/extend';
+
+
+.sectionContacto{
+        text-align: center;
+        .contactanos{
+            color: rgb(209, 30, 90)
+        }
+                .mapa {
+                    filter: grayscale(100%);
+                    position: relative;
+                    padding-bottom: 35%;
+                    height: 0;
+                    overflow: hidden;
+                    @media only screen and (max-width:768px){
+                    padding-top: 40%;
+                    } 
+                                iframe {
+                                    @extend %iframe
+            }
+    
+        }
+}
+

@@ -1,0 +1,31 @@
+footer{
+    background-color: rgba(41, 39, 39, 0.5);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    .marginFooter{
+        .footerizquierdo{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            .footerTexto{
+                margin-top: 6%;
+                margin-left: 0%;
+                margin-right: 10%;
+                align-items: center;
+                list-style: none;
+                font-size: 12px;
+                color: rgb(121, 123, 126);
+            }
+        }
+        .iconosFooter{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            .icono:hover{
+                transform:scale(108%);
+                transition: all 0.2s;
+            }
+        }
+    }
+}

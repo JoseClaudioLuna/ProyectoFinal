@@ -1,0 +1,24 @@
+@import '../base/variables';
+
+ .section{
+        color: rgb(188, 190, 192);
+        background-image: url(/Video/Videofondo.webm) ;
+        background-color: rgb(73, 73, 73, 0);
+        .divVideo{
+            position: fixed;
+            opacity: 0.7;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+        }
+        .sectionDiv{
+            padding-bottom: 20%;
+            padding-top: 10%;
+            margin-left: 7.5%;
+            .animate__animated.animate__fadeInUp{
+                --animate-duration: 4s;
+            }
+        }
+    }

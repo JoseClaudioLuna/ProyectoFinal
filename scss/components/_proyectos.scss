@@ -1,0 +1,19 @@
+
+
+.contenedorProyectos {
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+        .previewProyectos{
+                position: relative;
+                overflow: hidden;
+                padding-top: 30%;
+                @media only screen and (max-width:768px){
+                        padding-top: 60%;
+                 } 
+                iframe{
+                    @extend %iframe2
+                }
+        }
+ }
