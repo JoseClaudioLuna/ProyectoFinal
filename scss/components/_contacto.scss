@@ -1,11 +1,62 @@
 @import '../base/extend';
 
 
+.mainForm{
+    .contactanos{
+        text-align: center;
+        color: rgb(184, 34, 84);
+        padding-top: 22px;
+    }
+    .formulario{
+        background: rgba($color: #242323, $alpha: 0.4);
+        width: 70%;
+        height: 472px;
+        margin: auto;
+        padding: 5px 35px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-radius: 3px;
+        .elementosFormulario{
+            padding-top: 8px;
+            .formLabel{
+                display: block;
+                position: relative;
+                padding-top: 5px; 
+                color: rgb(173, 43, 87);
+            }
+            .formInput{
+                width: 100%;
+                outline: none;
+                border: none;
+                padding: 5px;
+                font-size: medium;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: #f1f1f1;
+            }
+            .areaTexto{
+                width: 100%;
+                outline: none;
+                padding: 5px;
+                resize: none;
+            }
+            .formBoton{
+                
+                width: 100%;
+                background: rgb(204, 39, 80) ;
+                outline: none;
+                border: none;
+            }
+            .formBoton:hover{
+                background: rgb(243, 13, 70)  ;
+                transform: scale(1.004);
+                
+            }
+        }
+    }
+}
 .sectionContacto{
         text-align: center;
-        .contactanos{
-            color: rgb(209, 30, 90)
-        }
                 .mapa {
                     filter: grayscale(100%);
                     position: relative;
@@ -21,4 +72,3 @@
     
         }
 }
-

@@ -49,15 +49,31 @@
 
 <!--cuerpo-->
 
+<main class="mainForm">
+   <h3 class="contactanos">
+    Contactanos
+   </h3>
+   <form class="formulario" action="/server/" method="post" enctype="application/x-www-form-urlencoded">
+    
+     <div class="elementosFormulario">
+      <label class="formLabel" for="nombreCompleto">Nombre y apellido</label>
+      <input class="formInput" type="text" placeholder="Nombre y apellido">
 
-    <section class="sectionContacto">
+      <label class="formLabel" for="email">Email</label>
+      <input class="formInput" type="email" placeholder="ejemplo@mail.com">
+
+      <label class="formLabel" for="textarea">Mensaje</label>
+      <textarea class="areaTexto" name="mensaje" id="" cols="30" rows="10" placeholder="Escriba aquí su mensaje"></textarea>
+
+      <button class="formBoton" type="submit">Enviar</button>
+    </div>
+    
+   </form>
+</main>
+
+<section class="sectionContacto">
         <div>
-            <br>
-            <br>
-            <h3 class="contactanos">
-                Contactanos
-            </h3>
-            <br>
+            
             <h4>
                 No dudes en contarnos tu proyecto  
             </h4>
